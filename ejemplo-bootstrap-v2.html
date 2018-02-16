@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+	<meta charset="UTF-8">
+	<title>Ejemplo de Bootstrap</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+
+	<!-- CSS necesario para el funcionamiento de Botstrap-->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+<style type="text/css">
+	header{
+		background-color: #D8D8D8;
+	}
+
+	header nav{
+		margin-top: 20px;
+		
+	}
+	footer{
+		background-color: #D8D8D8;
+		text-align: right;
+		margin-top: 50px;
+		padding-top: 40px;
+		padding-bottom: 40px;
+	}
+</style>
+	 
+</head>
+<body>
+	 
+	<header>
+		<div class="container">
+  <div class="jumbotron text-center">
+    <h1>Bootstrap Tutorial</h1>
+    <p>Bootstrap is the most popular HTML, CSS, and JS framework for developing
+    responsive, mobile-first projects on the web.</p>
+  </div>
+
+</div>
+		<div class="container">
+			<div class="row">
+				<div id="logo" class="col-md-8"><!--caja que ocupa 8 columnas-->
+					<h1><img src="https://cdn.worldvectorlogo.com/logos/comdial-logo.svg" width="30%"></h1>
+				</div>
+				<nav class="col-md-4"><!--caja que ocupa 4 columnas-->
+					<div class="btn-group" role="group" aria-label="...">
+<button type="button" class="btn btn-info">Inicio</button>
+<button type="button" class="btn btn-success">Éxitos</button>
+<button type="button" class="btn btn-success">Servicios</button>
+<button type="button" class="btn btn-success">Contacto</button>
+</div>
+						<span class="glyphicon glyphicon-menu-hamburger"></span><!--El icono del botón lo cogemos de la página de Bootstrap, en Components y lo ponemos en una clase aplicada a un span-->
+					
+				</nav>
+			</div>
+		</div>
+
+	</header>
+
+	<main>
+		<section>
+			<div class="container">
+				<div class="row">
+					<div class="col-md-4">
+						<h2>Servicios de valoración de carteras</h2>
+						<p>Suspendisse vitae quam lorem, in tempus velit. Sed vitae ante quis felis fringilla condimentum. Aenean orci ante, venenatis non adipiscing vitae, fringilla et neque. In pharetra, eros imperdiet luctus imperdiet, nunc sem pharetra mi, vel faucibus elit risus id tortor. Suspendisse vitae quam lorem, in tempus velit. Sed vitae ante quis felis fringilla condimentum. Aenean orci ante, venenatis non adipiscing vitae, fringilla et neque. In pharetra, eros imperdiet luctus imperdiet, nunc sem pharetra mi, vel faucibus elit risus id tortor.</p>
+						<a href="#" title="Más información sobre valoración de carteras" class="btn btn-info btn-md">Más información</a><!--Ponemos estilo de botón de la página de Bootstrap, en CSS y Button, tiene dos clases, la última es para el tamaño del botón, en Size-->
+					</div><!-- Fin columna -->
+					
+					<div class="col-md-4">
+						<h2>Gestión patrimonial de herencias</h2>
+						<p>Suspendisse vitae quam lorem, in tempus velit. Sed vitae ante quis felis fringilla condimentum. Aenean orci ante, venenatis non adipiscing vitae, fringilla et neque. In pharetra, eros imperdiet luctus imperdiet, nunc sem pharetra mi, vel faucibus elit risus id tortor. Suspendisse vitae quam lorem, in tempus velit. Sed vitae ante quis felis fringilla condimentum. Aenean orci ante, venenatis non adipiscing vitae, fringilla et neque. In pharetra, eros imperdiet luctus imperdiet, nunc sem pharetra mi, vel faucibus elit risus id tortor.</p>
+						<a href="#" title="Más información sobre valoración de carteras" class="btn btn-danger btn-md">Más información</a>
+					</div><!-- Fin columna -->
+
+					<div class="col-md-4">
+						<h2>Inversiones internacionales de acciones</h2>
+						<p>Suspendisse vitae quam lorem, in tempus velit. Sed vitae ante quis felis fringilla condimentum. Aenean orci ante, venenatis non adipiscing vitae, fringilla et neque. In pharetra, eros imperdiet luctus imperdiet, nunc sem pharetra mi, vel faucibus elit risus id tortor. Suspendisse vitae quam lorem, in tempus velit. Sed vitae ante quis felis fringilla condimentum. Aenean orci ante, venenatis non adipiscing vitae, fringilla et neque. In pharetra, eros imperdiet luctus imperdiet, nunc sem pharetra mi, vel faucibus elit risus id tortor.</p>
+						<a href="#" title="Más información sobre valoración de carteras" class="btn btn-warning btn-md">Más información</a>
+					</div><!-- Fin columna -->
+
+				</div><!-- Fin Fila -->
+			</div><!-- Fin Contenedor -->
+		</section>
+	</main>
+
+	<footer>
+		<div class="container">
+			<div class="row">
+				<div class="col-md-4">
+					&reg; Todos los derechos reservados
+				</div>				
+				<div class="col-md-8">
+					<a href="#">Mapa web</a>
+					<a href="#">Condiciones legales</a>
+					<a href="#">Contacto</a>
+				</div>
+
+
+			</div>
+		</div>
+	</footer>
+
+
+ <!-- Script de jQuery que también necesita Bootstrap para ciertas funcionalidades-->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
+
+<!--   JavaScript necesario para el funcionamiento de Botstrap-->
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>	
+
+</body>
+</html>
